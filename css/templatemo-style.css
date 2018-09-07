@@ -383,13 +383,13 @@ p { line-height: 1.9; }
 	.tm-section {
 	    padding-top: 50px;
 	    padding-bottom: 60px;
-		background-color: #F6EEEE;
+		background-color: #f9e5e5;
 	}
 
 	.leftcolumnin, .rightcolumn { 
 		margin: 0 auto;
 		max-width: 660px; 
-		background-color: #F6EEEE;
+		background-color: #f9e5e5;
 	}
 	
 	.tm-margin-t-big { margin-top: 30px; }
