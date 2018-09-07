@@ -287,7 +287,7 @@ p { line-height: 1.9; }
 	padding: 0.75rem 1rem;
 }
 
-.form-control:focus { border-color: ##e5b90b; }
+.form-control:focus { border-color: #e5b90b; }
 
 .tm-form-description { margin-top: 30px; }
 .tm-contact-form { padding-top: 20px; }
@@ -383,7 +383,7 @@ p { line-height: 1.9; }
 	.tm-section {
 	    padding-top: 50px;
 	    padding-bottom: 60px;
-		background-color: #FAF7D8;
+		background-color: #F6EEEE;
 	}
 
 	.leftcolumnin, .rightcolumn { 
@@ -550,7 +550,6 @@ p { line-height: 1.9; }
 	}
 }
 
-
 .leftcolumn 
 
 {
@@ -603,6 +602,7 @@ p { line-height: 1.9; }
 
 
 @media(max-width: 510px) {
+
 .rightcolumn
 
 {
