@@ -1,13 +1,13 @@
 
-body  
+body 
 
-{ 
+{  
 	color: black; 
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	font-weight: 300;
 	overflow-x: hidden;
-	background-color: #F5A322;
+	background-color: #FC9C02;
 	
 }
 
@@ -24,7 +24,6 @@ h2 { font-size: 2.2rem;
 
 	p { color: black; }
 	
-
 
 .container-fluid {
 	margin-left: auto;
