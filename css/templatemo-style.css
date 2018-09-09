@@ -551,7 +551,6 @@ p { line-height: 1.9; }
 }
 
 
-
 .leftcolumn 
 
 {
@@ -563,6 +562,22 @@ p { line-height: 1.9; }
 	border-style: none;
 	border-width: 10px;
 	padding-left: 80px;
+	padding-right: 30px;
+
+} 
+
+
+.leftcolumnin2
+
+{
+	float: left; 
+	max-width: 50%;
+	font-size: 12px;
+	color: black;
+	background-color: transparent 
+	border-style: none;
+	border-width: 10px;
+	padding-left: 30px;
 	padding-right: 30px;
 
 } 
@@ -595,17 +610,10 @@ p { line-height: 1.9; }
 	background-color: transparent 
 	border-style: none;
 	border-width: 10px;
-	padding-left: 80px;
-	padding-right: 80px;
+	padding-left: 10px;
+	padding-right: 10px;
 
 } 
-
-
-
-
-
-
-
 
 }
 
@@ -644,23 +652,6 @@ p { line-height: 1.9; }
 } 
 }
 
-
-
-
-.leftcolumnin2
-
-{
-	float: left; 
-	max-width: 50%;
-	font-size: 12px;
-	color: black;
-	background-color: transparent 
-	border-style: none;
-	border-width: 10px;
-	padding-left: 30px;
-	padding-right: 30px;
-
-} 
 
 
 
