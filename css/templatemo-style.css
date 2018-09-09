@@ -7,7 +7,7 @@ body
 	font-size: 18px;
 	font-weight: 300;
 	overflow-x: hidden;
-	background-color: #F8B54A;
+	background-color: #F5A322;
 	
 }
 
@@ -727,7 +727,7 @@ iframe{
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: orange; /* Set a background color */
+    background-color: #F8B54A; /* Set a background color */
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
@@ -736,7 +736,7 @@ iframe{
 }
 
 #myBtn:hover {
-    background-color: red; /* Add a dark-grey background on hover */
+    background-color: #E79C24; /* Add a dark-grey background on hover */
 }
 
 
