@@ -7,7 +7,7 @@ body
 	font-size: 18px;
 	font-weight: 300;
 	overflow-x: hidden;
-	background-color: #FC9C02;
+	background-color: #efbcac;
 	
 }
 
@@ -53,7 +53,7 @@ h2 { font-size: 2.2rem;
 	-webkit-justify-content: space-between;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
-	height: 80px;
+	height: 70px;
 	background-color: transparent;
 	color: black;
 }
