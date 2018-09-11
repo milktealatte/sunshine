@@ -554,7 +554,7 @@ p { line-height: 1.9; }
 
 {
 	float: left; 
-	max-width: 70%;
+	max-width: 70%; 
 	font-size: 12px;
 	color: black;
 	background-color: transparent 
@@ -576,8 +576,8 @@ p { line-height: 1.9; }
 	background-color: transparent 
 	border-style: none;
 	border-width: 10px;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
 
 } 
 
@@ -748,11 +748,43 @@ padding-top: 30px; height: 0; overflow: hidden;
 
 .video-container iframe,
 .video-container object,
-.video-container embed {
+.video-container embed { 
 position: absolute;
 top: 0;
 left: 0;
 width: 100%;
 height: 100%;
+}
+
+
+
+
+
+
+
+
+/* Image Hover Effects */
+
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
 }
 
