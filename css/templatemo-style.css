@@ -54,7 +54,7 @@ h2 { font-size: 2.2rem;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
 	height: 75px;
-	background-color: transparent;
+	background-color: transparent; 
 	color: black;
 }
 
@@ -731,7 +731,7 @@ iframe{
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
     border-radius: 5px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
+    font-size: 18px; /* Increase font size */ 
 }
 
 #myBtn:hover {
