@@ -656,8 +656,22 @@ p { line-height: 1.9; }
 	padding-left: 10px;
 
 } 
-}
 
+
+.articlebox
+{
+	float: left; 
+	max-width: 100%;
+	font-size: 12px;
+	color: black;
+	background-color: transparent 
+	border-style: none;
+	padding-left: 0px;
+	padding-right: 0px; 
+
+
+}
+}
 
 
 
