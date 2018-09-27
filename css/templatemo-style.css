@@ -8,6 +8,7 @@ body
 	font-weight: 300;
 	overflow-x: hidden;
 	background-image: url("../img/aussiepigeon.png")
+
 	
 }
 
@@ -17,6 +18,47 @@ a:focus {
 	text-decoration: none;
 	outline: none;
 }
+
+h1 {
+  font-family: font-family: 'Monoton', cursive; 
+  font-weight: 20; 
+  text-align: center; 
+  margin-top: 10px; 
+  color: gold; 
+  font-size: 35px; 
+  margin: auto; 
+  margin-top: 5%; 
+  width: 100%; 
+}
+h1:hover {
+  -webkit-animation: neon 1.5s ease-in-out infinite alternate; 
+}
+@-webkit-keyframes neon {
+  from {
+    text-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  #FF9900,
+               0 0 70px  #FF9900,
+               0 0 80px  #FF9900,
+               0 0 100px #FF9900,
+               0 0 150px #FF9900;
+  }
+  to {
+    text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px #FF9900,
+               0 0 35px #FF9900,
+               0 0 40px #FF9900,
+               0 0 50px #FF9900,
+               0 0 75px #FF9900;
+  }
+}
+
+
+
+
 
 h2 { font-size: 2.2rem;
 	color: #bd2e66;}
@@ -40,7 +82,7 @@ h2 { font-size: 2.2rem;
 }
 
 .tm-header {
-	background-color:transparent;
+	background-color:black;
 }
 
 .tm-header-inner {
@@ -53,7 +95,7 @@ h2 { font-size: 2.2rem;
 	-webkit-justify-content: space-between;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
-	height: 75px;
+	height: 85px;
 	background-color: transparent; 
 	color: orange;
 }
@@ -61,20 +103,20 @@ h2 { font-size: 2.2rem;
 .tm-site-name {
 	color: gold;
 	display: block;
-	font-size: 2.6rem; 
-	font-weight: 400;
-	font-family: 'Permanent Marker', cursive;
+	font-size: 2.4rem; 
+	font-weight: 280;
+	font-family: 'Monoton', cursive;
 	background-color: transparent;
 	
 }
 
-.tm-main-nav { font-size: 1.2rem; }
+.tm-main-nav { font-size: 1.3rem; }
 
 .navbar-nav .nav-link {`
 	border-radius: 2px;
 	color: #bd2e66;
-	background-color: #ebc0d1;
-	padding: 10px 40px;
+	background-color: black;
+	padding: 8px 30px;
 	font-family: 'Arvo', serif;
 }
 
@@ -82,9 +124,8 @@ h2 { font-size: 2.2rem;
 .nav-link:hover,
 .nav-link:focus {
 	color: white;
-	background-color: #bd2e66;
-	font-family: 'Arvo', serif;
-	
+	background-color: black;
+	font-family: 'Arvo', serif;	
 	
 }
 
@@ -206,7 +247,7 @@ color: black; }
 	color: #c6c6c6;
 	background-color: #F6EEEE;
 	font-size: 1rem;
-	padding-top: 40px; 
+	padding-top: 20px; 
 	padding-bottom: 20px;
 	font-family: 'Arvo', serif;
 
@@ -244,7 +285,7 @@ color: black; }
 	padding-top: 40px;
 	padding-bottom: 20px;
 	font-family: 'Arvo', serif;
-	background-color: #E7CFCF;
+	background-color:  #273746;
 	
 }
 
@@ -385,13 +426,13 @@ p { line-height: 1.9; }
 	.tm-section {
 	    padding-top: 50px;
 	    padding-bottom: 60px;
-		background-color: #f9e5e5;
+		background-color: black;
 	}
 
 	.leftcolumnin, .rightcolumn { 
 		margin: 0 auto;
 		max-width: 660px; 
-		background-color: #f9e5e5;
+		background-color: black;
 	}
 	
 	.tm-margin-t-big { margin-top: 30px; }
@@ -401,7 +442,7 @@ p { line-height: 1.9; }
 		margin-bottom: 0;
 	}
 
-	.tm-footer-content-box { margin-bottom: 40px; }
+	.tm-footer-content-box { margin-bottom: 20px; }
 
 	.tm-2-rows-md-swap {
 		display: -webkit-flex;
@@ -811,7 +852,7 @@ height: 100%;
   width: 100%;
   height: auto;
   transition: .5s ease;
-  backface-visibility: hidden;
+  backface-visibility: hidden; 
 }
 
 .container:hover .image {
@@ -821,4 +862,6 @@ height: 100%;
 .container:hover .middle {
   opacity: 1;
 }
+
+
 
