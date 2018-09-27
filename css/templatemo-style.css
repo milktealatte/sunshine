@@ -19,15 +19,17 @@ a:focus {
 	outline: none;
 }
 
+
+/*header neon effect*/
+
 h1 {
   font-family: font-family: 'Monoton', cursive; 
   font-weight: 20; 
-  text-align: center; 
-  margin-top: 10px; 
+  text-align: center;  
   color: gold; 
   font-size: 35px; 
   margin: auto; 
-  margin-top: 5%; 
+  margin-top: 2%; 
   width: 100%; 
 }
 h1:hover {
@@ -53,8 +55,47 @@ h1:hover {
                0 0 40px #FF9900,
                0 0 50px #FF9900,
                0 0 75px #FF9900;
+  } 
+}
+
+
+
+h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 20; 
+  text-align: center;  
+  color: blue; 
+  font-size: 23px; 
+  margin: auto; 
+  margin-top: 2%; 
+  width: 100%; 
+}
+h6:hover {
+  -webkit-animation: neon 1.5s ease-in-out infinite alternate; 
+}
+@-webkit-keyframes neon {
+  from {
+    text-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  #FF9900,
+               0 0 70px  #FF9900,
+               0 0 80px  #FF9900,
+               0 0 100px #FF9900,
+               0 0 150px #FF9900;
+  }
+  to {
+    text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px #FF9900,
+               0 0 35px #FF9900,
+               0 0 40px #FF9900,
+               0 0 50px #FF9900,
+               0 0 75px #FF9900;
   }
 }
+
 
 
 
@@ -95,7 +136,7 @@ h2 { font-size: 2.2rem;
 	-webkit-justify-content: space-between;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
-	height: 85px;
+	height: 130px;
 	background-color: transparent; 
 	color: orange;
 }
