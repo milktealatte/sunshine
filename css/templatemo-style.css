@@ -7,7 +7,7 @@ body
 	font-size: 18px;
 	font-weight: 300;
 	overflow-x: hidden;
-	background-color: black;
+	background-image: url("../img/aussiepigeon.png")
 	
 }
 
@@ -19,10 +19,10 @@ a:focus {
 }
 
 h2 { font-size: 2.2rem;
-	color: brown;}
+	color: #bd2e66;}
 .tm-thin-font { font-weight: 300; }
 
-	p { color: black; }
+	p { color: white; }
 	
 
 .container-fluid {
@@ -55,11 +55,11 @@ h2 { font-size: 2.2rem;
 	        justify-content: space-between;
 	height: 75px;
 	background-color: transparent; 
-	color: black;
+	color: orange;
 }
 
 .tm-site-name {
-	color: black;
+	color: gold;
 	display: block;
 	font-size: 2.6rem; 
 	font-weight: 400;
@@ -72,7 +72,8 @@ h2 { font-size: 2.2rem;
 
 .navbar-nav .nav-link {`
 	border-radius: 2px;
-	color: white;
+	color: #bd2e66;
+	background-color: #ebc0d1;
 	padding: 10px 40px;
 	font-family: 'Arvo', serif;
 }
@@ -81,23 +82,21 @@ h2 { font-size: 2.2rem;
 .nav-link:hover,
 .nav-link:focus {
 	color: white;
-	background-color: brown;
+	background-color: #bd2e66;
 	font-family: 'Arvo', serif;
 	
 	
 }
 
-.tm-gold-text { color: brown; }
+.tm-gold-text { color: #bd2e66; }
 
 .tm-section {
 	padding-top: 30px;
 	padding-bottom: 0px;
 	font-family: 'Arvo', serif;
-	background-color: #F2F2F2;
+	background-color: black;
 	
-	
-	
-	
+
 }
 
 .tm-home-img-container {
@@ -119,7 +118,7 @@ h2 { font-size: 2.2rem;
 	background-size: auto 200px;
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 200px;
+	height: 200px; 
 }
 
 .tm-title {
@@ -138,7 +137,11 @@ h2 { font-size: 2.2rem;
 	margin: 0 auto;
 }
 
-h3 { font-size: 1.35rem; }
+h3 { font-size: 1.35rem; 
+color: white;}
+
+
+
 h4 { 
 	font-size: 1.2rem;
 	line-height: 1.4;
